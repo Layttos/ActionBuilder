@@ -2,7 +2,7 @@ package fr.layttos.utils;
 
 import java.util.*;
 
-import fr.layttos.ToolsMain;
+import fr.layttos.MainClass;
 import org.bukkit.Bukkit;
 import org.bukkit.Color;
 import org.bukkit.DyeColor;
@@ -253,7 +253,7 @@ public class ItemBuilder {
      * Way to set a custom action when the player interacts with the item.
      */
     public ItemBuilder createAction(ActionBuilder actionBuilder) {
-        ToolsMain.INSTANCE.items.put(this.toItemStack(), actionBuilder);
+        MainClass.INSTANCE.items.put(this.toItemStack(), actionBuilder);
         return this;
     }
 
@@ -264,7 +264,7 @@ public class ItemBuilder {
      * @return The Action of the ItemStack.
      */
     public static ActionBuilder getActionBuilderFromItem(ItemStack itemStack) {
-        return ToolsMain.INSTANCE.items.get(itemStack);
+        return MainClass.INSTANCE.items.get(itemStack);
     }
 
 }
