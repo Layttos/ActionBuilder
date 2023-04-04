@@ -1,5 +1,5 @@
 # Setup
-To setup the files, you'll need to edit some classes :
+To use ActionBuilder, you'll need to edit some classes :
   - ItemBuilder
   - Your Main Class
 
