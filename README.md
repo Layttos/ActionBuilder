@@ -19,7 +19,7 @@ public void onEnable() {
 }
 ```
 
-If you already have the ItemBuilder class, just add these lines, otherwhise, download my custom ItemBuilder:
+If you already have the ItemBuilder class, just add these lines, otherwhise, download my custom ItemBuilder (mine is based on the ItemBuilder of NonameSL):
 ```java
 /**
  *
