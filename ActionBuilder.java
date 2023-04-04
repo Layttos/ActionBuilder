@@ -16,6 +16,8 @@ import org.bukkit.inventory.ItemStack;
  *
  *  You are allowed to: edit it, copy it, publish it, whatever UNLESS for a commercial use.
  *  Each modification must be OPEN-SOURCE.
+ *  
+ *. Please, if you ever use ActionBuilder in one of your projets, credits me (Layttos) unless if your project is a Minecraft Server.
  */
 
 
