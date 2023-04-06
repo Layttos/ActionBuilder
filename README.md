@@ -27,7 +27,7 @@ If you already have the ItemBuilder class, just add these lines, otherwhise, dow
  * Way to set a custom action when the player interacts with the item.
  */
 public ItemBuilder createAction(ActionBuilder actionBuilder) {
-    ToolsMain.INSTANCE.items.put(this.toItemStack(), actionBuilder);
+    MainClass.INSTANCE.items.put(this.toItemStack(), actionBuilder);
     return this;
 }
 
@@ -38,7 +38,7 @@ public ItemBuilder createAction(ActionBuilder actionBuilder) {
  * @return The Action of the ItemStack.
  */
 public static ActionBuilder getActionBuilderFromItem(ItemStack itemStack) {
-    return ToolsMain.INSTANCE.items.get(itemStack);
+    return MainClass.INSTANCE.items.get(itemStack);
 }
 ```
 
